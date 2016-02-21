@@ -1,0 +1,54 @@
+# Build settings
+permalink   : /blog/:year/:title/
+markdown    : kramdown
+highlighter : pygments
+
+gems: [jekyll-paginate]
+paginate: 3
+paginate_path: "/blog/page/:num/"
+comments: true
+
+source: source
+destination: _site
+sass:
+  sass_dir: _scss
+  style: compressed # expanded
+
+# SEO settings
+title: "Jes Anub | Frontend Engineer"
+description: "Jes Anub - a PH-based frontend developer."
+keywords: "Frontend, developer, philippines, programmer, designer, ui, ux"
+url: "http://jes.ph"
+baseurl: ""
+# baseurl: ""
+
+# google_analytics: UA-52446115-1
+repo: http://github.com/iammary
+disqus_shortname: "iammaryaswell"
+disqus_site_shortname: "jesph"
+
+# Author settings
+author:
+  name      : Mary Jesany Anub
+  job       : Frontend Engineer
+  bio       : "Developer + Designer + JavaScript Enthusiast + Cebu PH"
+  thumb     : /images/jes.jpg
+  email     : mjanub@gmail.com
+  url       : http://jes.ph
+  github    : http://github.com/iammary
+  twitter   : http://twitter.com/iammaryaswell
+  facebook  : http://facebook.com/iammaryaswell
+  linkedin  : http://linkedin.com/in/iammary
+
+# navbar pages
+navbar:
+  - slug: about
+    title: About
+  # - slug: resume
+  #   title: Resume
+  # - slug: skills
+  #   title: Skills
+  - slug: blog
+    title: Blog
+
+exclude: ["gulp", "node_modules", "bower", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "Rakefile", "changelog.md"]
