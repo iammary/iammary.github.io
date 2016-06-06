@@ -18,3 +18,11 @@
 .dot {
   border-radius: 50%;
 }
+
+.instagram-feed {
+  max-width: 500px;
+  margin: 40px auto;
+  blockquote {
+    font-size: 0;
+  }
+}
