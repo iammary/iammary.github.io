@@ -2,7 +2,7 @@
 
 Mary Jesany Anub - Frontend Engineer
 
-A website made using Jekyll and design inspire by [end2end](https://github.com/nandomoreirame/end2end) and [coverr](www.coverr.co)
+A website made using Jekyll and design inspired by [end2end](https://github.com/nandomoreirame/end2end) and [coverr](www.coverr.co)
 
 ---
 
